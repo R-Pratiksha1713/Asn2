@@ -6,7 +6,7 @@
 
 2.CONTRIBUTION OF EACH TEAM MEMBER:
 a)R.PRATIKSHA:
-Tracing the logic.Finding an approach to use Karatsuba algo in integer multiplication.Helped in implementation pf command line arguments in java.
+Tracing the logic.Finding an approach to use Karatsuba algo in integer multiplication.Helped in implementation of command line arguments in java.
 b)SINDU.A.S:
 Correction of errors looking through hardcoding of inputs.
 c)VARIDHI MADHURANATH:
