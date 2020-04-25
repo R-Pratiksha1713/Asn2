@@ -5,11 +5,11 @@ public class Asn02p06
 	static long length(long len) 
 	{
 		int count = 0;
-        while (len != 0) 
-        {
-        	len = len / 10;
-            count++;
-        }
+       		while (len != 0) 
+        	{
+        		len = len / 10;
+		    	count++;
+       	 	}
         return count;
 	}
 	public static void mul(long x,long y)
@@ -17,7 +17,7 @@ public class Asn02p06
 		long len1 = length(x);
         	long len2 = length(y);
         	long maxi = Math.max(len1, len2);
-       		 maxi = (maxi / 2) + (maxi % 2);
+       		maxi = (maxi / 2) + (maxi % 2);
         	long power = (long) Math.pow(10, maxi);
        		long b = x / power;
         	long a = x % power;
